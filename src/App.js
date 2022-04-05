@@ -2,7 +2,7 @@ import React from "react";
 import './Home_css.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MaterialIcon from 'material-icons-react';
-import pic1 from './Images/bac_pic9.jpg';
+import pic1 from './Images/bac_pic8.jpg';
 import stock_pic1 from './Images/ev2.jpg';
 import pic2 from './Images/arms2.jpg';
 import usmart_pic from './Images/usmart.png';
@@ -78,7 +78,7 @@ function App() {
             </div>
             <div class='row'>
               <StyleRoot>
-                <p className='subtitle' style={styles.fadeSub}>Smart and sustainable solutions for the future or power grids.</p>
+                <p className='subtitle' style={styles.fadeSub}>Smart and sustainable solutions for the future of the power grid.</p>
               </StyleRoot>
             </div>
             <br></br>
