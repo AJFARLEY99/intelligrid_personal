@@ -38,7 +38,7 @@ function App() {
         <div class='col-sm-4' style={{color:'white', textAlign:'right', textDecoration:'inherit'}}>
           <div class='row'>
             <div class='col-sm-3'>
-              <a href='#about' style={{textDecoration:'none', color:'white'}}>About</a>
+              {/* <a href='#about' style={{textDecoration:'none', color:'white'}}>About</a> */}
             </div>
             <div class='col-sm-3'>
               <a href='#projects' style={{textDecoration:'none', color:'white'}}>Solutions</a>
@@ -100,19 +100,68 @@ function App() {
         </div>
     </div>
 
-    <div id='about' className="home" style={{backgroundColor: '#F5F5F5'}}>
+    <div id='projects' className="home" style={{backgroundColor: 'white'}}>
         <br></br>
         <br></br>
         <br></br>
-        <div class='row'>
-          <h1  style={{fontSize:'60px', textAlign:'left'}}>The energy sector is changing.</h1>
+        <div class='row' style={{borderBottom: '3px solid grey'}}>
+          <h1  style={{fontSize:'60px', textAlign:'left'}}>IntelliGrid is an energy company that develops cloud-based AI solutions
+          for power grid applications.</h1>
+          <br></br>
+          <br></br>
+          <p style={{color:'white'}}>.</p>
+          <h3 style={{fontSize:'20px', textAlign:'left', color:'#6082B6'}}>
+              We specialize in the creation state-of-the-art softwares and platforms to be deployed for use in a 
+              modern power system. These platforms are designed to address many of the novel issues a sustainable
+              and resilient power system faces. We rely on our established research prowess and combine it with our 
+              vigor to commercialize our cutting-edge technologies to produce innovative and game-changing products.
+          </h3>
+          <p style={{color:'white'}}>.</p>
+          <br></br>
         </div>
+
         {/* <div class='row'>
           <h1  style={{fontSize:'40px', textAlign:'left'}}>IntelliGrid is the future.</h1>
         </div> */}
         <br></br>
         <br></br>
+        <br></br>
         <div class='row'>
+          <div class='col-lg-1'></div>
+          <div class='col-lg-11'>
+            <div class='row'>
+              <div class='col-sm-1' style={{textAlign:'left'}}>
+                <MaterialIcon icon="electric_car" size='70' color='#96DED1' />
+              </div>
+              <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
+                <h3>IntelliCharge capitalizes on the significant increase of EVs on the grid</h3>
+              </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div class='row'>
+              <div class='col-sm-1' style={{textAlign:'left'}}>
+                <MaterialIcon icon="light_mode" size='70' color='#96DED1' />
+              </div>
+              <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
+                <h3>FlexT utilizes blockchain technology to optimize flexibility of electric loads</h3>
+              </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div class='row'>
+              <div class='col-sm-1' style={{textAlign:'left'}}>
+                <MaterialIcon icon="thunderstorm" size='70' color='#96DED1' />
+              </div>
+              <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
+                <h3>IntelliARMS uses artificial intelligence to ensure a more resilient grid</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br></br>
+        <br></br>
+        {/* <div class='row'>
           <div class='col-lg-6'>
             <div class='row'>
               <div class='col-sm-3' style={{textAlign:'right'}}>
@@ -153,14 +202,14 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <br></br>
         <br></br>
         <br></br>
       </div>
 
 
-      <div className="home" style={{backgroundColor: '#6082B6'}}>
+      {/* <div className="home" style={{backgroundColor: '#6082B6'}}>
         <br></br>
         <br></br>
         <br></br>
@@ -186,7 +235,7 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-    </div>
+    </div> */}
    
 
       <div id='projects' className="home" style={{backgroundColor: '#F5F5F5'}}>
@@ -211,9 +260,9 @@ function App() {
                 aggregates them at the facility level, and optimally executes those service requests to capitalize on the flexibility they offer to the grid. 
                  iC is a platform capable of harnessing aggregated EV flexibility to realize global benefits with minimized costs, improved grid congestion relief, and more sustainable power system operation.
               </p>
-              <div className = 'learn_button' style={{textAlign:'left'}}>
+              {/* <div className = 'learn_button' style={{textAlign:'left'}}>
                 <a className="btn btn-primary float-right">Learn More</a>
-              </div>
+              </div> */}
             </div>
             <div class='col-sm-1'></div>
         </div>
@@ -244,9 +293,9 @@ function App() {
                 </p>
                 <br></br>
                 <br></br>
-                <div className = 'learn_button' style={{textAlign:'left'}}>
+                {/* <div className = 'learn_button' style={{textAlign:'left'}}>
                   <a className="btn btn-primary float-right">Learn More</a>
-                </div>
+                </div> */}
             </div>
             <div class='col-sm-5 my-auto' style={{textAlign:'center'}}>
                 <img src={stock_pic1} alt="pic1" style={{width: '500px'}} />
@@ -280,9 +329,9 @@ function App() {
                 After an incident is located and classified, IntelliARMS computes the set of actions to control distributed energy resources such as 
                 solar energy systems and energy storage systems in order to restore the grid to normal operation.
                 </p>
-                <div className = 'learn_button' style={{textAlign:'left'}}>
+                {/* <div className = 'learn_button' style={{textAlign:'left'}}>
                     <a className="btn btn-primary float-right">Learn More</a>
-                </div>
+                </div> */}
             </div>
             <div class='col-sm-1'></div>
         </div>
@@ -340,7 +389,7 @@ function App() {
         <div class='row'>
           <div class='col-sm-1'></div>
           <div class='col-sm-7'>
-            <h2 style={{color:'white',fontSize:'70px'}}>Chat with us</h2>
+            <h2 style={{color:'white',fontSize:'70px'}}>Contact us</h2>
             <label for='chat_email' style={{color:'white',fontSize:'20px'}}>Email
             <br></br>
               <input type='text' id='chat_email'></input>
