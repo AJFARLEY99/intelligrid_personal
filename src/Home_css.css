@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.join_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.register_button {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home {
+    background-color: white;
+    padding: 5px 50px
+}
+
+.learn_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.chat_button {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  
+}
+
+.pic1 {
+    background-image: url(./Images/ev_photo.jpg);
+    width: 150px
+  }
+
+a {
+    text-decoration: inherit;
+}
