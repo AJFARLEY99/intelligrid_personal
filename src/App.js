@@ -78,7 +78,7 @@ function App() {
             </div>
             <div class='row'>
               <StyleRoot>
-                <p className='subtitle' style={styles.fadeSub}>Smart and sustainable solutions for the future of the power grid.</p>
+                <p className='subtitle' style={styles.fadeSub}>Intelligent Solutions for a Sustainable, Resilient, and Equitable Future of the Power Grid</p>
               </StyleRoot>
             </div>
             <br></br>
@@ -105,8 +105,7 @@ function App() {
         <br></br>
         <br></br>
         <div class='row' style={{borderBottom: '3px solid grey'}}>
-          <h1  style={{fontSize:'60px', textAlign:'left'}}>IntelliGrid is an energy company that develops cloud-based AI solutions
-          for power grid applications.</h1>
+          <h1  style={{fontSize:'60px', textAlign:'left'}}>IntelliGrid develops cloud-based AI solutions for power grid applications.</h1>
           <br></br>
           <br></br>
           <p style={{color:'white'}}>.</p>
@@ -131,7 +130,9 @@ function App() {
           <div class='col-lg-11'>
             <div class='row'>
               <div class='col-sm-1' style={{textAlign:'left'}}>
-                <MaterialIcon icon="electric_car" size='70' color='#96DED1' />
+                <a href='#intellicharge'>
+                  <MaterialIcon icon="electric_car" size='70' color='#96DED1' />
+                </a>
               </div>
               <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
                 <h3>IntelliCharge capitalizes on the significant increase of EVs on the grid</h3>
@@ -141,7 +142,9 @@ function App() {
             <br></br>
             <div class='row'>
               <div class='col-sm-1' style={{textAlign:'left'}}>
-                <MaterialIcon icon="light_mode" size='70' color='#96DED1' />
+                <a href='#flext'> 
+                  <MaterialIcon icon="light_mode" size='70' color='#96DED1' />
+                </a>
               </div>
               <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
                 <h3>FlexT utilizes blockchain technology to optimize flexibility of electric loads</h3>
@@ -151,7 +154,9 @@ function App() {
             <br></br>
             <div class='row'>
               <div class='col-sm-1' style={{textAlign:'left'}}>
-                <MaterialIcon icon="thunderstorm" size='70' color='#96DED1' />
+                <a href='#intelliarms'>
+                  <MaterialIcon icon="thunderstorm" size='70' color='#96DED1' />
+                </a>
               </div>
               <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
                 <h3>IntelliARMS uses artificial intelligence to ensure a more resilient grid</h3>
@@ -238,7 +243,7 @@ function App() {
     </div> */}
    
 
-      <div id='projects' className="home" style={{backgroundColor: '#F5F5F5'}}>
+      <div id='intellicharge' className="home" style={{backgroundColor: '#F5F5F5'}}>
         <br></br>
         <br></br>
         <br></br>
@@ -307,7 +312,7 @@ function App() {
         <br></br>
         <br></br>
     </div>
-    <div className="home" style={{backgroundColor: '#F5F5F5'}}>
+    <div id='intelliarms' className="home" style={{backgroundColor: '#F5F5F5'}}>
         <br></br>
         <br></br>
         <br></br>
