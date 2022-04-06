@@ -73,7 +73,7 @@ function App() {
             <br></br>
             <div class='row'>
               <StyleRoot>
-                <h1 style={styles.fadeIn}>IntelliGrid</h1>
+                <h1 style={styles.fadeIn}>intelliGrid</h1>
               </StyleRoot>
             </div>
             <div class='row'>
@@ -135,7 +135,7 @@ function App() {
                 </a>
               </div>
               <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
-                <h3>IntelliCharge capitalizes on the significant increase of EVs on the grid</h3>
+                <h3><b>IntelliCharge</b> capitalizes on the significant increase of EVs on the grid</h3>
               </div>
             </div>
             <br></br>
@@ -147,7 +147,7 @@ function App() {
                 </a>
               </div>
               <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
-                <h3>FlexT utilizes blockchain technology to optimize flexibility of electric loads</h3>
+                <h3><b>FlexT</b> utilizes blockchain technology to optimize flexibility of electric loads</h3>
               </div>
             </div>
             <br></br>
@@ -159,7 +159,7 @@ function App() {
                 </a>
               </div>
               <div class='col-sm-11 my-auto' style={{textAlign:'left'}}>
-                <h3>IntelliARMS uses artificial intelligence to ensure a more resilient grid</h3>
+                <h3><b>IntelliARMS</b> uses artificial intelligence to ensure a more resilient grid</h3>
               </div>
             </div>
           </div>
