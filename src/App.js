@@ -105,7 +105,7 @@ function App() {
         <br></br>
         <br></br>
         <div class='row' style={{borderBottom: '3px solid grey'}}>
-          <h1  style={{fontSize:'60px', textAlign:'left'}}>IntelliGrid develops cloud-based AI solutions for power grid applications.</h1>
+          <h1  style={{fontSize:'60px', textAlign:'left'}}>intelliGrid develops cloud-based AI solutions for power grid applications.</h1>
           <br></br>
           <br></br>
           <p style={{color:'white'}}>.</p>
