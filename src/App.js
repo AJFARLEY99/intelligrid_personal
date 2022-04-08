@@ -78,7 +78,7 @@ function App() {
             </div>
             <div class='row'>
               <StyleRoot>
-                <p className='subtitle' style={styles.fadeSub}>Intelligent Solutions for a Sustainable, Resilient, and Equitable Future of the Power Grid</p>
+                <p className='subtitle' style={styles.fadeSub}>Intelligent Solutions for a Sustainable, Resilient, and Equitable Future Power Grid</p>
               </StyleRoot>
             </div>
             <br></br>
