@@ -34,20 +34,20 @@ function App() {
       <div class='row'>
         <div class='col-sm-1'></div>
         <div class='col-sm-6'>
-          <h6 style={{color:'white', textAlign:'left'}}>Grid Elevated</h6>
+          <h6 style={{color:'white', textAlign:'left'}}>IntelliGrid</h6>
         </div>
         <div class='col-sm-4' style={{color:'white', textAlign:'right', textDecoration:'inherit'}}>
           <div class='row'>
-            
+            <div class='col-sm-3'></div>
             <div class='col-sm-3'>
               <a href='#projects' style={{textDecoration:'none', color:'white'}}>Solutions</a>
             </div>
             <div class='col-sm-3'>
               <a href='#partners' style={{textDecoration:'none', color:'white'}}>Partners</a>
             </div>
-            <div class='col-sm-3'>
+            {/* <div class='col-sm-3'>
               <a href='#about' style={{textDecoration:'none', color:'white'}}>Team</a>
-            </div>
+            </div> */}
             <div class='col-sm-3'>
               <a href='#contact' style={{textDecoration:'none', color:'white'}}>Contact</a>
             </div>
@@ -75,7 +75,7 @@ function App() {
             <br></br>
             <div class='row'>
               <StyleRoot>
-                <h1 style={styles.fadeIn}>Grid Elevated</h1>
+                <h1 style={styles.fadeIn}>IntelliGrid</h1>
               </StyleRoot>
             </div>
             <div class='row'>
@@ -107,7 +107,7 @@ function App() {
         <br></br>
         <br></br>
         <div class='row' style={{borderBottom: '3px solid grey'}}>
-          <h1  style={{fontSize:'60px', textAlign:'left'}}>Grid Elevated develops cloud-based AI solutions for power grid applications.</h1>
+          <h1  style={{fontSize:'60px', textAlign:'left'}}>IntelliGrid develops cloud-based AI solutions for power grid applications.</h1>
           <br></br>
           <br></br>
           <p style={{color:'white'}}>.</p>
@@ -122,7 +122,7 @@ function App() {
         </div>
 
         {/* <div class='row'>
-          <h1  style={{fontSize:'40px', textAlign:'left'}}>Grid Elevated is the future.</h1>
+          <h1  style={{fontSize:'40px', textAlign:'left'}}>IntelliGrid is the future.</h1>
         </div> */}
         <br></br>
         <br></br>
@@ -230,7 +230,7 @@ function App() {
             </div>
             <div class='col-sm-5 my-auto' style={{textAlign:'left'}}>
                 <p style={{color:'white', fontSize:'20px'}}>
-                    Grid Elevated develops intelligent solutions to meet the modern challenges of the energy transition.
+                    IntelliGrid develops intelligent solutions to meet the modern challenges of the energy transition.
                     We specialize in the creation state-of-the-art softwares and platforms to be deployed for use in a 
                     modern power system. These platforms are designed to address many of the novel issues a sustainable
                     and resilient power system faces. We rely on our established research prowess and combine it with our 
@@ -375,7 +375,7 @@ function App() {
         <br></br>
         <br></br>
     </div>
-    <div id='about' className='home' style={{backgroundColor: '#6082B6'}}>
+    {/* <div id='about' className='home' style={{backgroundColor: '#6082B6'}}>
         <br></br>
         <br></br>
         <br></br>
@@ -386,7 +386,7 @@ function App() {
           </div>
         </div>
         
-    </div>
+    </div> */}
     <div id='contact' className="home" style={{backgroundColor: '#6082B6'}}>
         <br></br>
         <br></br>
